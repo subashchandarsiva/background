@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
 import 'tachyons';
+import Logo from './components/Logo/Logo';
 import Particles from 'react-particles-js';
 import Navigation from './components/Navigation/Navigation';
+import Rank from './components/Rank/Rank';
+import InputForm from './components/Form/InputForm';
 
 const Particlesconc ={
   particles: {
@@ -33,11 +36,10 @@ class App extends Component {
               
             />
       <Navigation />
-      <h1 className="underline">Hello Brain Freeze Application</h1>
-      {/* <Logo /> */}
-      {/* <Rank />
+      <Logo />
+      <Rank />
       <InputForm />
-      <ImageView />      */}
+      {/* <ImageView />      */}
 
       </div>
     );
